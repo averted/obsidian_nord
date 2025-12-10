@@ -42,6 +42,9 @@
     /* Mods */
     --margin-large: 1em;
     --h1-weight: 600;
+
+    --title-font: var(--font-interface);
+    --title-font: "iA Writer Mono S";
 }
 
 body {
@@ -95,12 +98,19 @@ body {
 
     --link-url: var(--purple);
 
-    --h1-size: 1.5rem;
-    --h2-size: 1.4rem;
-    --h3-size: 1.3rem;
-    --h4-size: 1.2rem;
-    --h5-size: 1.1rem;
+    --h1-size: 1.4rem;
+    --h2-size: 1.3rem;
+    --h3-size: 1.2rem;
+    --h4-size: 1.1rem;
+    --h5-size: 1.0rem;
     --h6-size: 1rem;
+
+    --h1-font: var(--title-font);
+    --h2-font: var(--title-font);
+    --h3-font: var(--title-font);
+    --h4-font: var(--title-font);
+    --h5-font: var(--title-font);
+    --h6-font: var(--title-font);
 
     --h1-color: var(--orange);
     --h2-color: var(--green);
@@ -123,6 +133,7 @@ body {
     --titlebar-text-color-focused: var(--red);
 
     --inline-title-size: 1.75rem;
+    --inline-title-font: var(--title-font);
     --inline-title-color: var(--red);
     --inline-title-margin-bottom: var(--margin-large);
 
