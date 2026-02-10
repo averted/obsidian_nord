@@ -44,9 +44,11 @@
 
     /* Mods */
     --margin-large: 1em;
-    --title-font: "Victor Mono";
+    --title-font: "Berkeley Mono Trial";
+    --title-font-style: normal;
+    --title-font-variant: normal;
     --title-font-weight: 100;
-    --title-letter-spacing: 1.5px;
+    --title-letter-spacing: 0px;
 }
 
 /**
@@ -138,6 +140,20 @@ body {
     --h4-letter-spacing: var(--title-letter-spacing);
     --h5-letter-spacing: var(--title-letter-spacing);
     --h6-letter-spacing: var(--title-letter-spacing);
+
+    --h1-style: var(--title-font-style);
+    --h2-style: var(--title-font-style);
+    --h3-style: var(--title-font-style);
+    --h4-style: var(--title-font-style);
+    --h5-style: var(--title-font-style);
+    --h6-style: var(--title-font-style);
+
+    --h1-variant: var(--title-font-variant);
+    --h2-variant: var(--title-font-variant);
+    --h3-variant: var(--title-font-variant);
+    --h4-variant: var(--title-font-variant);
+    --h5-variant: var(--title-font-variant);
+    --h6-variant: var(--title-font-variant);
 
     --text-highlight-bg: var(--frost1);
     --text-highlight-fg: var(--dark0);
